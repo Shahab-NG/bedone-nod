@@ -1,0 +1,29 @@
+{
+  "name": "bedone-nod",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "sass --watch main.scss main.css",
+    "build": "parcel build index.html --dist-dir build --public-url ./",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahab-NG/bedone-nod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahab-NG/bedone-nod/issues"
+  },
+  "homepage": "https://github.com/Shahab-NG/bedone-nod#readme",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "gh-pages": "^5.0.0"
+  }
+}
